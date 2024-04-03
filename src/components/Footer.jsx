@@ -34,6 +34,18 @@ const {user, login, logout} = useAuth();
               as={NavLink} className="footer-link">
               <span onClick={()=>setCurrentLinkHelper("Home")} className={current_link=="Home"?"secondary-color-span":""}>Home</span>
             </Link>
+            
+            <Link
+              exact={true}
+              to="https://webapp.simplyfleet.app/services/servicetasks"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="footer-link"
+              >
+            Services
+            </Link>
+
+    
 
             <Link exact to="/create-account"
               as={NavLink}  className="footer-link">
