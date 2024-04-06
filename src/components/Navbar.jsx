@@ -3,7 +3,7 @@ import React from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 
 import "../styles/Navbar.css";
-import logo from "../assets/logos/navbar_logo.jpeg";
+import logo from "../assets/logos/uss.jpg";
 
 
 import { useEffect, useState } from "react";
@@ -50,7 +50,7 @@ function CustomNavbar() {
             </Nav.Link>
 
             <Nav.Link exact to="/create-account" as={NavLink}  className="navbar-link">
-              <span onClick={()=>setCurrentLinkHelper("Contratar")} className={current_link=="Contratar"?"secondary-color-span":""}>Contratar</span>
+              <span onClick={()=>setCurrentLinkHelper("Contratar")} className={current_link=="Contratar"?"secondary-color-span":""}>About us </span>
             </Nav.Link>
 
             <Nav.Link href={agreement_download} target="_blank"  className="navbar-link">
@@ -58,17 +58,17 @@ function CustomNavbar() {
             </Nav.Link>
 
             <Nav.Link exact to="/user-account" as={NavLink}  className="navbar-link">
-              <span onClick={()=>setCurrentLinkHelper("Cuenta")} className={current_link=="Cuenta"?"secondary-color-span":""}>Cuenta</span>
+              <span onClick={()=>setCurrentLinkHelper("Cuenta")} className={current_link=="Cuenta"?"secondary-color-span":""}>Our Fleet</span>
             </Nav.Link>
 
             {user?
               <Nav.Link exact to="/logout" as={NavLink}  className="navbar-link">
-                <span onClick={()=>setCurrentLinkHelper("Logout")} className={current_link=="Logout"?"secondary-color-span":""}>Logout</span>
+                <span onClick={()=>setCurrentLinkHelper("Logout")} className={current_link=="Logout"?"secondary-color-span":""}>Our Services</span>
               </Nav.Link>
             :""}
 
             <Nav.Link href="/" className="navbar-link">
-              <span className="secondary-color-span">786-783-8421</span>
+              <span className="secondary-color-span">Contact us</span>
             </Nav.Link>
 
           </Nav>
