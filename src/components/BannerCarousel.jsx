@@ -49,7 +49,7 @@ function PrincipalBanner() {
 
               <h2 className="PrincipalBanner-custom-header2">
                 <span className="PrincipalBanner-din-alternate-bold-font">
-                  SIN CONTRATO
+                  NO CONTRACT
                 </span>
               </h2>
             </div>
@@ -73,17 +73,17 @@ function PrincipalBanner() {
             <div className="SecondaryBanner-text-div">
               <h2 className="SecondaryBanner-custom-header2">
                 <span className="SecondaryBanner-din-alternate-bold-font">
-                  USTED DECIDE 48 ESTADOS
+                  YOU DECIDE
                 </span>
               </h2>
               <h2 className="SecondaryBanner-custom-header2">
                 <span className="SecondaryBanner-din-alternate-bold-font">
-                  ZONAS DE SU PREFERENCIA
+                  AREAS OF PREFERENCE
                 </span>
               </h2>
               <h2 className="SecondaryBanner-custom-header2">
                 <span className="SecondaryBanner-din-alternate-bold-font">
-                  O RUTAS DEDICADAS
+                  OR DEDICATED ROUTE
                 </span>
               </h2>
             </div>
@@ -107,17 +107,17 @@ function PrincipalBanner() {
             <div className="ThirdBanner-text-div">
               <h2 className="ThirdBanner-custom-header2">
                 <span className="ThirdBanner-din-alternate-bold-font">
-                  NEGOCIAMOS CON LOS BROKERS
+                WE NEGOTIATE WITH BROKERS
                 </span>
               </h2>
               <h2 className="ThirdBanner-custom-header2">
                 <span className="ThirdBanner-din-alternate-bold-font">
-                  LOS MEJORES RATES
+                  FOR THE BEST RATES
                 </span>
               </h2>
               <h2 className="ThirdBanner-custom-header2">
                 <span className="ThirdBanner-din-alternate-bold-font">
-                  DEL MOMENTO
+                  AT THE MOMENT
                 </span>
               </h2>
             </div>
