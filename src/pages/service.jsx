@@ -21,7 +21,7 @@ export default function Service() {
 
       <h2 className="text-center service-custom-header2">
         <span className="service-din-alternate-bold-font">
-          Elija el servicio de su preferencia
+          Choose the service of your preference
         </span>
       </h2>
 
@@ -30,41 +30,41 @@ export default function Service() {
       </div>
 
       <h4 className="text-center service-custom-title">
-        Y usted podrá obtener los siguientes servicios
+        And you can get the following services
       </h4>
 
       <div className="service-plans-div">
         <h4 className="service-plan-title">4% Plan Básico</h4>
         <p className="service-p">
-          Ofertas de carga para el destino que usted prefiera
+          Cargo offers for the destination you prefer
           <br />
-          Sugerencia de cargas de regreso o a otros destinos con mejor rate por milla
+          Suggestion for return loads or to other destinations with a better rate per mile
           <br />
-           Setup con nuevos brokers
+           Setup with new brokers
         </p>
       </div>
 
       <div className="service-plans-div">
         <h4 className="service-plan-title">6% Plan VIP</h4>
         <p className="service-p">
-          Ofertas de carga para el destino que usted prefiera
+          Cargo offers for the destination you prefer
           <br />
-           Sugerencia de cargas de regreso o a otros destinos con mejor rate por milla
+           Suggestion for return loads or to other destinations with a better rate per mile
            <br />
-           Setup con nuevos brokers
+           Setup with new brokers
            <br />
-            Negociación para Detentión o Layovers
+            Negotiation for Detention or Layovers
             <br />
-            Envío de documentos a su companía de Factoring
+            Sending documents to your Factoring company
             <br />
-            Analítica semanal por camión
+            Weekly analysis by truck
         </p>
       </div>
 
       <div className="service-button-div">
         <Link to="/create-account">
           <Button variant="primary" className="service-button">
-            COMENZAR YA!
+            START NOW!
           </Button>
         </Link>
       </div>
