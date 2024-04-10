@@ -19,13 +19,13 @@ function StepsViews() {
 
           <Card.Body className="start-step-card-body">
             <h4 className="start-step-h4">
-              Firmar el agreement
+              Sign the agreement
             </h4>
           </Card.Body>
 
           <Card.Footer className="start-step-card-footer">
             <span className="third-color-span p-font">
-              Solo una pagina facil de rellenar
+              Just one page easy to fill out
             </span>
           </Card.Footer>
         </Card>
@@ -38,7 +38,7 @@ function StepsViews() {
           </Card.Header>
 
           <Card.Body className="start-step-card-body">
-            <h4 className="start-step-h4">Enviar los documentos</h4>
+            <h4 className="start-step-h4">Send the documents</h4>
           </Card.Body>
 
           <Card.Footer className="start-step-card-footer">
@@ -56,12 +56,12 @@ function StepsViews() {
           </Card.Header>
 
           <Card.Body className="start-step-card-body">
-            <h4 className="start-step-h4">Comenzar a cargar</h4>
+            <h4 className="start-step-h4">Start charging</h4>
           </Card.Body>
 
           <Card.Footer className="start-step-card-footer">
             <span className="third-color-span p-font">
-              Le enviamos las primeras cargas
+              We send you the first loads
             </span>
           </Card.Footer>
         </Card>
