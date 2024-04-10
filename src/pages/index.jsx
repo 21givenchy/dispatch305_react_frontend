@@ -17,30 +17,30 @@ export default function Landing() {
       <div className="banner-spacer" />
 
       <p className="text-center">
-        <span className="third-color-span p-header-font">Que ofrecemos</span>
+        <span className="third-color-span p-header-font">What we offer</span>
       </p>
 
       <h2 className="text-center landing-custom-header2">
         <span className="secondary-color-span landing-din-alternate-bold-font">
-          Nuestros Servicios
+          Our services
         </span>
       </h2>
 
       <div className="landing-paragraph">
         <p>
           <span className="third-color-span p-font">
-            Somos un pequeño grupo de dispatchers con amplia experiencia en
-            cargas secas, refrigeradas, así como flat bed, enfocados en buscar y
-            negociar el mejor precio con los brokers y ofrecerle tanto a dueños
-            de camiones como pequeñas compañías un servicio de calidad y
-            profesionalismo.
+            We are a small group of dispatchers with extensive experience in
+            dry and refrigerated loads, as well as flat beds, focused on searching and
+            negotiate the best price with brokers and offer both to owners
+            of trucks as small companies a quality service and
+            professionalism.
           </span>
           <br />
           <span className="third-color-span p-font">
-            Al trabajar con su propia Authority usted es dueño en todo momento
-            del servicio que le estamos ofreciendo, las confirmaciones llegan
-            directamente a su correo y los brokers quedan con usted así no desee
-            seguir con nuestro servicio en el futuro
+            By working with your own Authority you are the owner at all times
+            of the service we are offering, confirmations arrive
+            directly to your email and the brokers stay with you even if you don't want
+            continue our service in the future
           </span>
         </p>
       </div>
@@ -51,7 +51,7 @@ export default function Landing() {
       <div className="spacer" />
 
       <h2 className="text-center landing-custom-header2">
-        <span className="landing-din-alternate-bold-font">Comenzar es muy fácil</span>
+        <span className="landing-din-alternate-bold-font">Getting started is very easy</span>
       </h2>
 
       <div className="start-step-div">
@@ -72,14 +72,14 @@ export default function Landing() {
 
       <div className="spacer-100" />
 
-      <div className="claves-para-exito-div">
+      <div className="keys-to-success-div">
         <ClavesSteps />
       </div>
 
       <div className="spacer" />
 
       <div className="contact-banner">
-        <h1 className="contact-banner-title-h2">CARGUE SU CAMIÓN</h1>
+        <h1 className="contact-banner-title-h2">LOAD YOUR TRUCK</h1>
       </div>
 
       <div className="spacer" />
