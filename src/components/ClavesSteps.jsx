@@ -9,11 +9,11 @@ import correctIcon from "../assets/icons/correct-icon.png";
 function ClavesSteps() {
   return (
     <Row className="claves-para-exito-row">
-      <Col xs={12} sm={12} md={6} lg={6} className="claves-para-exito-col">
-        <div className="claves-para-exito-col-body  claves-para-exito-col-first">
+      <Col xs={12} sm={12} md={6} lg={6} className="keys-to-success-col">
+        <div className="keys-to-success-col-body  keys-to-success-col-first">
           <div className="v-card-icon-div"></div>
-          <div className="claves-para-exito-button-div">
-            <p className="claves-para-exito-button-p">CLAVES PARA EL ÉXITO</p>
+          <div className="keys-to-success-button-div">
+            <p className="keys-to-success-col-p">KEYS TO SUCCESS</p>
           </div>
 
           <div className="spacer" />
@@ -27,17 +27,17 @@ function ClavesSteps() {
               <div className="claves-para-exito-card-body">
                 <div className="claves-para-exito-title-div">
                   <p className="claves-para-exito-title-p">
-                    SERVICIO A PRECIO JUSTO
+                    SERVICE AT A FAIR PRICE
                   </p>
                 </div>
 
                 <div className="claves-text-div">
                   <div className="claves-paragraph-div">
                     <p>
-                      No pague más de lo que necesita ni fees ocultos, usted
-                      recibira un servicio de calidad con un precio siempre
-                      adecuado pues mientras usted más gana nosotros más
-                      recibimos.
+                     Don't pay more than you need or hidden fees, you
+                      You will receive quality service with a price always
+                      appropriate because the more you earn, the more we
+                      We received. 
                     </p>
                   </div>
                 </div>
@@ -56,17 +56,17 @@ function ClavesSteps() {
               <div className="claves-para-exito-card-body">
                 <div className="claves-para-exito-title-div">
                   <p className="claves-para-exito-title-p">
-                    DISPATCH ESPECIALIZADO
+                    SPECIALIZED DISPATCH
                   </p>
                 </div>
 
                 <div className="claves-text-div">
                   <div className="claves-paragraph-div">
                     <p>
-                      Nuestro servicio se enfoca en sus necesidades objetivas,
-                      pues cada cliente elije que zona quiere trabajar, que tipo
-                      de carga quiere mover, en que horario desea trabajar y
-                      demás
+                      Our service focuses on your objective needs,
+                      Well, each client chooses what area they want to work on, what type
+                      of load you want to move, what hours you want to work and
+                      the rest
                     </p>
                   </div>
                 </div>
@@ -84,16 +84,16 @@ function ClavesSteps() {
               <div className="v-spacer"></div>
               <div className="claves-para-exito-card-body">
                 <div className="claves-para-exito-title-div">
-                  <p className="claves-para-exito-title-p">GRAN COMPLEMENTO</p>
+                  <p className="claves-para-exito-title-p">GREAT COMPLEMENT</p>
                 </div>
 
                 <div className="claves-text-div">
                   <div className="claves-paragraph-div">
                     <p>
-                      Ahorra tiempo y despreocuopese del papeleo, podemos
-                      completar su servicio de dispatch encargandonos de subir
-                      sus POD, Rate, Lumper, etc a su factoring para que pueda
-                      cobrar en tiempo su trabajo.
+                      Save time and don't worry about paperwork, we can
+                      complete your dispatch service by taking care of uploading
+                      your POD, Rate, Lumper, etc. to your factoring so you can
+                      get paid for your work on time.
                     </p>
                   </div>
                 </div>
@@ -105,16 +105,16 @@ function ClavesSteps() {
 
       <Col xs={12} sm={12} md={6} lg={6} className="claves-para-exito-col">
         <div className="claves-para-exito-col-body claves-para-exito-col-second">
-          <p className="claves-para-exito-tag-p">Sobre Nosotros</p>
+          <p className="claves-para-exito-tag-p">About us</p>
 
           <h2 className="claves-para-exito-tag-h2">
-            Dispatch 305 es un servicio especialmente diseñado para owners op y
-            pequeñas compañías de cargas.
+            Dispatch 305 is a service specially designed for op owners and
+            small freight companies.
           </h2>
 
           <h2 className="claves-para-exito-tag-h2">
-            Contamos con herramientas dedicadas, así como amplia experiencia en
-            la industria de las cargas para ofrecerle el mejor precio cada día.
+            We have dedicated tools, as well as extensive experience in
+            the freight industry to offer you the best price every day.
           </h2>
         </div>
       </Col>
