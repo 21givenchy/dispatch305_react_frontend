@@ -60,7 +60,7 @@ export default function Landing() {
         <div className="comenzar-button-div">
         <Link to="/create-account">
           <Button variant="primary" className="comenzar-button">
-            COMENZAR YA!
+            START NOW!
           </Button>
         </Link>
         </div>
