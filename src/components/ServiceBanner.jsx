@@ -21,17 +21,17 @@ function ServiceBanner() {
 
       <div className="complexBanner-tag-div">
         <div className="complexBanner-text-div">
-          <p className="complexBanner-header-p">Nuestro compromiso</p>
+          <p className="complexBanner-header-p">Our commitment</p>
           <h2 className="custom-header2">
             <span className="complexBanner-din-alternate-bold-font">
-              Listo para solicitar nuestros servicios?
+              Ready to request our services?
             </span>
           </h2>
           <p className="complexBanner-header-p-light">
-            Solo tiene que leer nuestro agreement de una sola pagina, firmar y
-            llenar la forma con los datos necesarios para el set-up con los
-            brokers, no espere más y comience a recibir hoy mismo los mejores
-            rates del mercado.
+            Simply read our one-page agreement, sign and
+            fill out the form with the data necessary for the set-up with the
+            brokers, don't wait any longer and start receiving the best today
+            market rates.
           </p>
           <div className="complexBanner-icon-div">
             <img
@@ -43,7 +43,7 @@ function ServiceBanner() {
 
           <div className="complexBanner-button-div">
             <Button variant="primary" className="complexBanner-button">
-              ENVIAR DOCUMENTOS
+              SEND DOCUMENTS
             </Button>
           </div>
         </div>
