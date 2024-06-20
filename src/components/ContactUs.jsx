@@ -54,11 +54,10 @@ function ContactUs() {
     <Row className="contact-us-row">
       <Col xs={12} sm={12} md={6} lg={6} className="contact-us-col">
         <div className="contact-us-col-body contact-us-col-first">
-          <p className="contact-us-tag-p">Contáctenos</p>
+          <p className="contact-us-tag-p">Contact Us</p>
 
           <h2 className="contact-us-tag-h2">
-            No espere más para contactarnos, estamos aquí para encontrar los
-            mejores rates de la insdutria para usted
+          Don't wait any longer to contact us. We're here to find the best rates in the industry for you.
           </h2>
         </div>
       </Col>
