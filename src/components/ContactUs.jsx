@@ -68,22 +68,22 @@ function ContactUs() {
 
           <Form onSubmit={(e) => sendCommentHandler(e)}>
             <Form.Group className="mb-3 contact-us-form-group" controlId="formBasicName">
-              <Form.Control type="text" className="contact-us-form-control"  placeholder="NOMBRE" value={name} onChange={(e) => setName(e.target.value)}/>
+              <Form.Control type="text" className="contact-us-form-control"  placeholder="NAME" value={name} onChange={(e) => setName(e.target.value)}/>
             </Form.Group>
 
             <Form.Group className="mb-3 contact-us-form-group"  controlId="formBasicPhone">
-              <Form.Control type="text" className="contact-us-form-control" placeholder="TELEFONO" value={phone} onChange={(e) => setPhone(e.target.value)}/>
+              <Form.Control type="text" className="contact-us-form-control" placeholder="Phone Number" value={phone} onChange={(e) => setPhone(e.target.value)}/>
             </Form.Group>
 
             <Form.Group className="mb-3 contact-us-form-group"  controlId="formBasicEmail">
-              <Form.Control type="email" className="contact-us-form-control" placeholder="CORREO ELECTRONICO" value={email} onChange={(e) => setEmail(e.target.value)}/>
+              <Form.Control type="email" className="contact-us-form-control" placeholder="EMAIL" value={email} onChange={(e) => setEmail(e.target.value)}/>
             </Form.Group>
 
             <Form.Group className="mb-3 contact-us-message"  controlId="formBasicMessage">
-            <Form.Control as="textarea" className="contact-us-control-message" placeholder="MENSAJE" rows={3} value={comment} onChange={(e) => setComment(e.target.value)}/>
+            <Form.Control as="textarea" className="contact-us-control-message" placeholder="MESSAGE" rows={3} value={comment} onChange={(e) => setComment(e.target.value)}/>
             </Form.Group>
             <Button variant="primary" className="contact-us-button" type="submit">
-              ENVIAR MENSAJE
+              SUBMIT
             </Button>
           </Form>
         </div>
