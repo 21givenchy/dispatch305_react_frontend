@@ -19,13 +19,13 @@ function StepsViews() {
 
           <Card.Body className="start-step-card-body">
             <h4 className="start-step-h4">
-              Sign the agreement
+              Fast and flexible delivery
             </h4>
           </Card.Body>
 
           <Card.Footer className="start-step-card-footer">
             <span className="third-color-span p-font">
-              Just one page easy to fill out
+              Reduced operational costs
             </span>
           </Card.Footer>
         </Card>
@@ -38,7 +38,7 @@ function StepsViews() {
           </Card.Header>
 
           <Card.Body className="start-step-card-body">
-            <h4 className="start-step-h4">Send the documents</h4>
+            <h4 className="start-step-h4">Vast array of vehicles</h4>
           </Card.Body>
 
           <Card.Footer className="start-step-card-footer">
