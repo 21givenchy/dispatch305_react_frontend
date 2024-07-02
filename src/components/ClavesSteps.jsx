@@ -108,7 +108,7 @@ function ClavesSteps() {
           <p className="claves-para-exito-tag-p">About us</p>
 
           <h2 className="claves-para-exito-tag-h2">
-            Dispatch 305 is a service specially designed for op owners and
+            Urban Trucks is a service specially designed for op owners and
             small freight companies.
           </h2>
 

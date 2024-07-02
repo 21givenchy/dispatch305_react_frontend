@@ -72,7 +72,7 @@ export default function CreateAccount() {
 
       <h2 className="text-center create-account-custom-header2">
         <span className="create-account-din-alternate-bold-font">
-          Comenzar es muy fácil
+        Easy Start for Logistics Partners
         </span>
       </h2>
 
@@ -81,22 +81,17 @@ export default function CreateAccount() {
       </div>
 
       <h4 className="text-center create-account-custom-title">
-        Enviar los documentos
+      Unleash Efficient Cargo Management
       </h4>
 
       <div className="create-account-paragraph-div">
         <p className="create-account-paragraph-p">
-          Para crear una cuenta con nuevos brokers y mantener su información
-          actualizada es necesario brindarnos una serie de documentos requeridos
-          para crear su cuenta y que podamos negociar por usted sus cargas. Los
-          documentos son guardados con absoluta seguridad por nosotros y solo
-          serán utilizados para uso exclusivo de su compañía.
+        Establish a smooth partnership with us by providing the necessary documents to create your account and enable us to negotiate on your behalf. Your documents will be stored securely and used exclusively for your company's purposes.
         </p>
       </div>
 
       <h4 className="text-center create-account-custom-title">
-        Complete esta forma y recibirá un agreement para comenzar a recibir
-        cargas
+      Join our network of trusted logistics partners and experience the ease of efficient cargo management.
       </h4>
 
       <div className="create-account-form-div">
