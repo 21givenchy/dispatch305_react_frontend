@@ -43,7 +43,7 @@ const {user, login, logout} = useAuth();
               <span className="secondary-color-span">Tracking</span>
             </Link>
             
-            <Link exact to href="https://invoice-generator.com/thanks?invoice=1"
+            <Link rel="pingback" href="https://invoice-generator.com/thanks?invoice=1"
               as={NavLink}  className="footer-link">
               <span className="secondary-color-span">invoice Generator</span>
             </Link>
