@@ -11,7 +11,7 @@ import { useNavigate } from "react-router-dom";
 
 
   return (
-    <div>
+    
       <SimpleBanner
         banner_img={banner5}
         banner_img_description="Create Account Truck Cargo"
@@ -42,7 +42,7 @@ import { useNavigate } from "react-router-dom";
       <h4 className="text-center create-account-custom-title">
       Join our network of trusted logistics partners and experience the ease of efficient cargo management.
       </h4>
-      </div>
+      
 
     
      
