@@ -54,7 +54,7 @@ function CustomNavbar() {
             </Nav.Link>
 
             <Nav.Link href={agreement_download} target="_blank"  className="navbar-link">
-              Agreement
+              GFsolutions
             </Nav.Link>
 
             <Nav.Link exact to="/user-account" as={NavLink}  className="navbar-link">
