@@ -46,7 +46,7 @@ import { useNavigate } from "react-router-dom";
       Join our network of trusted logistics partners and experience the ease of efficient cargo management.
       </h4>
       </div>
-</div>
+
     
      
 }
