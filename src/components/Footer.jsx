@@ -33,13 +33,14 @@ const {user, login, logout} = useAuth();
             
             
 
-            <Link exact to="/"
+            <a href="https://webapp.simplyfleet.app/dashboard"
               as={NavLink}  className="footer-link">
               <span className="secondary-color-span">Maintenance</span>
-            </Link>
+            </a>
 
              
-                  <a href="https://invoice-generator.com/thanks?invoice=1">
+                  <a href="https://invoice-generator.com/thanks?invoice=1"
+                     as={NavLink}  className="footer-link" >
               <span className="secondary-color-span">Invoice Generator</span>
                       </a>
            
