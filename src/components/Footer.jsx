@@ -43,9 +43,10 @@ const {user, login, logout} = useAuth();
               <span className="secondary-color-span">Tracking</span>
             </Link>
             
-            <Link rel="pingback" href="https://invoice-generator.com/thanks?invoice=1"
+            <Link <a href="https://nextjs.org">
               as={NavLink}  className="footer-link">
               <span className="secondary-color-span">invoice Generator</span>
+                </a>
             </Link>
 
           </div>
