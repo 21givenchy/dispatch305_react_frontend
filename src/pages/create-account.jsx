@@ -17,7 +17,7 @@ import { useNavigate } from "react-router-dom";
         banner_img_description="Create Account Truck Cargo"
       />
 
-      <div className="spacer" />
+      
 
       <h2 className="text-center create-account-custom-header2">
         <span className="create-account-din-alternate-bold-font">
