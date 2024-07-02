@@ -1,9 +1,6 @@
 import React from "react";
 import "../styles/CreateAccount.css";
 
-import { useEffect, useState } from "react";
-
-import { Button, Row, Col, Form } from "react-bootstrap";
 import SimpleBanner from "../components/SimpleBanner";
 
 import banner5 from "../assets/images/banner5.jpeg";
