@@ -15,52 +15,6 @@ import regularFolderIcon from "../assets/icons/folder-icon.png";
 import { useNavigate } from "react-router-dom";
 
 
-const domain = process.env.REACT_APP_API_DOMAIN_NAME
-
-
-
-export default function CreateAccount() {
-  const [authority_letter_document, setAuthorityLetterDocument] =
-    useState(null);
-  const [w9_document, setW9Document] = useState(null);
-  const [insurance_document, setInsuranceDocument] = useState(null);
-  const [noa_document, setNOADocument] = useState(null);
-
-  const [contact_name, setContactName] = useState("");
-  const [email, setEmail] = useState("");
-  const [phone, setPhone] = useState("");
-  const [company_name, setCompanyName] = useState("");
-
-  const [current_plan, setCurrentPlan] = useState("BASICO");
-
-  const navigate = useNavigate();
-
-
-  const body = JSON.stringify({
-    contact_name,
-    email,
-    phone,
-    company_name,
-    current_plan,
-  })
-
-
-  const onSubmitForm = async(e) => {
-    e.preventDefault();
-    if(!authority_letter_document || !w9_document || !insurance_document){
-      alert("Please upload at least the Authority Letter, the W9, and the insurance")
-    }
-    else{
-      const result = await createNewAccount(body);
-
-      if (result == "Success"){
-        await uploadFiles(email, authority_letter_document, w9_document, insurance_document, noa_document);
-        navigate("/");
-      }
-    }
-    
-  }
-
   return (
     <div>
       <SimpleBanner
