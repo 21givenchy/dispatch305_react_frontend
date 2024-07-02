@@ -44,10 +44,10 @@ const {user, login, logout} = useAuth();
                       </a>
            
               
-            <Link exact to="/"
+            <a href="http://redviewtrack.com/#/monitorPage"
               as={NavLink}  className="footer-link">
               <span className="secondary-color-span">Tracking</span>
-            </Link>
+            </a>
             
             
           </div>
