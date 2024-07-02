@@ -56,7 +56,7 @@ function StepsViews() {
           </Card.Header>
 
           <Card.Body className="start-step-card-body">
-            <h4 className="start-step-h4">Start charging</h4>
+            <h4 className="start-step-h4">Real time tracking</h4>
           </Card.Body>
 
           <Card.Footer className="start-step-card-footer">
