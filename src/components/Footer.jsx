@@ -37,7 +37,12 @@ const {user, login, logout} = useAuth();
               as={NavLink}  className="footer-link">
               <span className="secondary-color-span">Maintenance</span>
             </Link>
-            
+
+              <Link exact to="/"
+              as={NavLink}  className="footer-link">
+              <span className="secondary-color-span">Invoice Generator</span>
+            </Link>
+             Learn <a href="https://nextjs.org">Next.js!</a>
             <Link exact to="/"
               as={NavLink}  className="footer-link">
               <span className="secondary-color-span">Tracking</span>
