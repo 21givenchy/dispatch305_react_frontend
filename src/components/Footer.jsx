@@ -43,11 +43,12 @@ const {user, login, logout} = useAuth();
               <span className="secondary-color-span">Tracking</span>
             </Link>
             
-            <Link <a href="https://nextjs.org">
+            <Link exact to="/"
               as={NavLink}  className="footer-link">
               <span className="secondary-color-span">invoice Generator</span>
                 </a>
             </Link>
+            Learn <a href="https://invoice-generator.com/thanks?invoice=1">Next.js!</a>
 
           </div>
         </Row>
