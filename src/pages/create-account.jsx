@@ -3,8 +3,6 @@ import "../styles/CreateAccount.css";
 
 import { useEffect, useState } from "react";
 
-import axios from "axios"
-
 import { Button, Row, Col, Form } from "react-bootstrap";
 import SimpleBanner from "../components/SimpleBanner";
 
