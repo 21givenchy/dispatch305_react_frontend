@@ -93,6 +93,6 @@ export default function CreateAccount() {
       <h4 className="text-center create-account-custom-title">
       Join our network of trusted logistics partners and experience the ease of efficient cargo management.
       </h4>
-
+</div>
      
 }
