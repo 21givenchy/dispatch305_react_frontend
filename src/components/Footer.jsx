@@ -38,14 +38,12 @@ const {user, login, logout} = useAuth();
               <span className="secondary-color-span">Maintenance</span>
             </Link>
 
-              <Link exact to="/"
-              as={NavLink}  className="footer-link">
+             
+                  <a href="https://invoice-generator.com/thanks?invoice=1">
               <span className="secondary-color-span">Invoice Generator</span>
-            </Link>
-              <Link classname="footer-link">
-                  
-            <a href="https://invoice-generator.com/thanks?invoice=1">Invoice Generator</a>
-                  </Link>
+                      </a>
+           
+              
             <Link exact to="/"
               as={NavLink}  className="footer-link">
               <span className="secondary-color-span">Tracking</span>
