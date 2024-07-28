@@ -55,7 +55,7 @@ export default function Landing() {
       </h2>
 
       <div className="start-step-div">
-        <StepsViews />
+        
 
         <div className="comenzar-button-div">
         <Link to="/create-account">
@@ -68,12 +68,11 @@ export default function Landing() {
 
       <div className="spacer" />
 
-      <ServiceBanner />
 
       <div className="spacer-100" />
 
       <div className="keys-to-success-div">
-        <ClavesSteps />
+        
       </div>
 
       <div className="spacer" />

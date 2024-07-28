@@ -54,11 +54,11 @@ function CustomNavbar() {
             </Nav.Link>
 
             <Nav.Link href={agreement_download} target="_blank"  className="navbar-link">
-              GFsolutions
+              Services&Sectors
             </Nav.Link>
 
             <Nav.Link exact to="/user-account" as={NavLink}  className="navbar-link">
-              <span onClick={()=>setCurrentLinkHelper("Cuenta")} className={current_link=="Cuenta"?"secondary-color-span":""}>Our Fleet</span>
+              <span onClick={()=>setCurrentLinkHelper("Cuenta")} className={current_link=="Cuenta"?"secondary-color-span":""}>Contract Logistics</span>
             </Nav.Link>
 
             {user?
