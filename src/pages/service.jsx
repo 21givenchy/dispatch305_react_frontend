@@ -1,8 +1,7 @@
 import React from "react";
 import "../styles/Service.css";
 
-import { Button, Row, Col, Form } from "react-bootstrap";
-
+import { Button } from "react-bootstrap";
 import SimpleBanner from "../components/SimpleBanner";
 
 import dollarIcon from "../assets/icons/money-icon.png";
@@ -33,35 +32,32 @@ export default function Service() {
         And you can get the following services
       </h4>
 
-      <div className="service-plans-div">
-        <h4 className="service-plan-title">4% Plan</h4>
-        <p className="service-p">
-          Cargo offers for the destination you prefer
-          <br />
-          Suggestion for return loads or to other destinations with a better rate per mile
-          <br />
-           Setup with new brokers
-        </p>
+      <div className="flex flex-wrap justify-center gap-4 p-4">
+        <div className="max-w-xs rounded-lg shadow-lg bg-white hover:shadow-xl transition-shadow duration-300 p-6">
+          <h4 className="service-plan-title text-xl font-bold">Road Freight</h4>
+          <p className="service-p">
+            We are able to offer dedicated road freight services as well as pre-carriage and on-carriage as part of a multi-modal, door-to-door solution.
+            <br />
+            Through Transeast, our subsidiary transport company, we provide a range of road transport solutions to inland.
+          </p>
+        </div>
+
+        <div className="max-w-xs rounded-lg shadow-lg bg-white hover:shadow-xl transition-shadow duration-300 p-6">
+          <h4 className="service-plan-title text-xl font-bold">Project Logistics</h4>
+          <p className="service-p">
+            We specialise in project logistics services, offering an integrated approach and tailored solutions at international standards for complex projects across all sectors.
+          </p>
+        </div>
+
+        <div className="max-w-xs rounded-lg shadow-lg bg-white hover:shadow-xl transition-shadow duration-300 p-6">
+          <h4 className="service-plan-title text-xl font-bold">Contract Logistics</h4>
+          <p className="service-p">
+            Our contract logistics arm, Freight Forwarders Solutions, provides warehousing, inventory management, and secondary distribution solutions.
+          </p>
+        </div>
       </div>
 
-      <div className="service-plans-div">
-        <h4 className="service-plan-title">6% Plan VIP</h4>
-        <p className="service-p">
-          Cargo offers for the destination you prefer
-          <br />
-           Suggestion for return loads or to other destinations with a better rate per mile
-           <br />
-           Setup with new brokers
-           <br />
-            Negotiation for Detention or Layovers
-            <br />
-            Sending documents to your Factoring company
-            <br />
-            Weekly analysis by truck
-        </p>
-      </div>
-
-      <div className="service-button-div">
+      <div className="service-button-div text-center mt-6">
         <Link to="/create-account">
           <Button variant="primary" className="service-button">
             START NOW!

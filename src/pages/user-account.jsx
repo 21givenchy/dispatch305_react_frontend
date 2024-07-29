@@ -1,85 +1,41 @@
 import React from "react";
 import "../styles/UserAccountInfo.css";
 
-import { Button, Row, Col, Form } from "react-bootstrap";
-
-import { useEffect, useState } from "react";
-
+import { Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import Login from "../components/Login";
-import Account from "../components/Account";
-import EditAccountModal from "../components/EditAccountModal";
-import ResetPasswordModal from "../components/ResetPasswordModal";
-
-import {useAuth} from "../context/AuthContext";
 
 export default function UserAccountInfo() {
-
-  const {user, login, logout, edit_account, reset_password} = useAuth();
-
-
-
-  const documents_info = [
-    {
-      name: "Authorization Letter",
-      filename:"authority_letter"
-    },
-    {
-      name: "W9",
-      doc_name:"w9"
-    },
-    {
-      name: "Insurance",
-      filename:"insurance"
-    },
-    {
-      name: "NOA",
-      filename:"noa"
-    },
-  ];
-
-  const [show_edit_account_modal, setShowEditAccountModal] = useState(false);
-  const [show_reset_password_modal, setShowResetPasswordModal] = useState(false);
-
-  const handleShowEditAccountModal = () => {
-    setShowEditAccountModal(true);
-  };
-
-  const handleCloseEditAccountModal = () => {
-    setShowEditAccountModal(false);
-  };
-
-  const handleShowResetPasswordModal = () => {
-    setShowResetPasswordModal(true);
-  };
-
-  const handleCloseResetPasswordModal = () => {
-    setShowResetPasswordModal(false);
-  };
-
-
   return (
-    <div className="profile-div">
-      {user?
-        <>
-      <Account
-        onClickEditAccount={handleShowEditAccountModal}
-        onClickResetPasswordModal={handleShowResetPasswordModal}
-        user_info={user}
-        documents_info={documents_info}
-      />
-      <EditAccountModal
-        show_modal={show_edit_account_modal}
-        close_modal={handleCloseEditAccountModal}
-        user_info={user}
-      editAccountFunction={edit_account}
-      />
-    <ResetPasswordModal show_modal={show_reset_password_modal}
-    close_modal={handleCloseResetPasswordModal}
-    user_info={user}
-    editAccountFunction={reset_password}/>
-    </>
-  :<Login loginFunction = {login} />}
+    <div className="profile-div p-6 bg-gray-100 rounded-lg shadow-md">
+      <h2 className="text-center text-2xl font-bold mb-4">Project Logistics</h2>
+      <p className="mb-4">
+        Over the last 40 years, we have supported some of the largest Infrastructure, Mining and Oil & Gas projects across East and Central Africa with a full range of logistics services.
+      </p>
+      <p className="mb-4">
+        Today we are the leading project logistics group in the region providing end-to-end solutions for complex projects including detailed route surveys, specialist heavy lift transport, and remote site materials handling.
+      </p>
+      <p className="mb-4">
+        Regionally, we are accredited to carry dangerous cargo including chemicals for the mining industry. All our drivers are highly trained and all dangerous goods are escorted by specially designed spill response equipped vehicles.
+      </p>
+
+      <h3 className="text-center text-xl font-semibold mt-6 mb-4">Out-of-Gauge and Heavy Haulage</h3>
+      <p className="mb-4">
+        Our transport arms, Transeast and Mainline Carriers, specialise in the transport of heavy and out-of-gauge cargo to remote locations across East and Central Africa.
+      </p>
+      <p className="mb-4">
+        Our fleet of heavy lift vehicles and equipment includes hydraulic and modular low loaders, giving us the capacity to simultaneously move multiple loads allowing timely delivery.
+      </p>
+      <p className="mb-4">
+        With over 80 various types of material handling equipment vehicles and special trucks and trailers, our heavy lift division specialises in complex lifts for Oil & Gas equipment throughout the region. The jacking and skidding equipment enables remote site offloading and positioning.
+      </p>
+
+      <div className="text-center mt-6">
+        <Link to="/services">
+          <Button variant="primary" className="hover:bg-blue-700 transition duration-300">
+            Learn More About Our Services
+          </Button>
+        </Link>
+      </div>
     </div>
   );
 }
