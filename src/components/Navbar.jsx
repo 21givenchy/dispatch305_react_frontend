@@ -53,7 +53,7 @@ function CustomNavbar() {
               <span onClick={()=>setCurrentLinkHelper("Contratar")} className={current_link=="Contratar"?"secondary-color-span":""}>About us </span>
             </Nav.Link>
 
-            <Nav.Link href={agreement_download} target="_blank"  className="navbar-link">
+            <Nav.Link exact to="/service" as ={NavLink}  className="navbar-link">
               Services&Sectors
             </Nav.Link>
 

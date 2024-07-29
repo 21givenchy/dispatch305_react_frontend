@@ -34,26 +34,40 @@ function CreateAccount() {
       </div>
 
       <h4 className="text-center create-account-custom-title">
-       Why Urban Trucks
+        Why Urban Trucks
       </h4>
-      <div className="create-account-row">
-        <div className="create-account-column">
-          <h5>Local Knowledge</h5>
+
+      <div className="flex flex-wrap justify-around">
+        <div className="max-w-sm rounded overflow-hidden shadow-lg m-4 p-6 bg-white">
+          <div className="flex items-center justify-center mb-4">
+            <img src={regularFolderIcon} alt="Local Knowledge Icon" className="w-12 h-12"/>
+          </div>
+          <h5 className="text-xl font-bold mb-2">Local Knowledge</h5>
           <p>Intimate knowledge of the regional operating environment, with 88 years experience tackling logistics challenges in East and Central Africa.</p>
         </div>
-        <div className="create-account-column">
-          <h5>Integrated Supply Chain</h5>
+        <div className="max-w-sm rounded overflow-hidden shadow-lg m-4 p-6 bg-white">
+          <div className="flex items-center justify-center mb-4">
+            <img src={regularFolderIcon} alt="Integrated Supply Chain Icon" className="w-12 h-12"/>
+          </div>
+          <h5 className="text-xl font-bold mb-2">Integrated Supply Chain</h5>
           <p>Fully integrated supply chain with strategic corridor assets and specialised transport assets across the region.</p>
         </div>
-        <div className="create-account-row card">
-          <h5>Solutions Design</h5>
+        <div className="max-w-sm rounded overflow-hidden shadow-lg m-4 p-6 bg-white">
+          <div className="flex items-center justify-center mb-4">
+            <img src={regularFolderIcon} alt="Solutions Design Icon" className="w-12 h-12"/>
+          </div>
+          <h5 className="text-xl font-bold mb-2">Solutions Design</h5>
           <p>Track record in designing complex logistics solutions to international standards and satisfying customers.</p>
         </div>
-        <div className="create-account-column">
-          <h5>Technical Expertise</h5>
+        <div className="w-100 rounded overflow-hidden shadow-lg m-4 p-6 bg-white">
+          <div className="flex items-center justify-center mb-4">
+            <img src={regularFolderIcon} alt="Technical Expertise Icon" className="w-12 h-12"/>
+          </div>
+          <h5 className="text-xl font-bold mb-2">Technical Expertise</h5>
           <p>Highly trained team experienced in delivering successful projects across some of the harshest terrains in the region.</p>
         </div>
       </div>
+      
     </>
   );
 }
