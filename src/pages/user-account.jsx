@@ -3,11 +3,18 @@ import "../styles/UserAccountInfo.css";
 
 import { Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import inland from "../assets/images/analitica.jpg";
+import tras from "../assets/images/tras.jpg";
+import SimpleBanner from "../components/SimpleBanner";
 
 export default function UserAccountInfo() {
   return (
     <div className="profile-div p-6 bg-gray-100 rounded-lg shadow-md">
       <h2 className="text-center text-2xl font-bold mb-4">Project Logistics</h2>
+      <SimpleBanner
+        banner_img={inland}
+        banner_img_description={"Service Detail Truck Cargo"}
+      />
       <p className="mb-4">
         Over the last 40 years, we have supported some of the largest Infrastructure, Mining and Oil & Gas projects across East and Central Africa with a full range of logistics services.
       </p>
@@ -19,6 +26,10 @@ export default function UserAccountInfo() {
       </p>
 
       <h3 className="text-center text-xl font-semibold mt-6 mb-4">Out-of-Gauge and Heavy Haulage</h3>
+      <SimpleBanner
+        banner_img={tras}
+        banner_img_description={"Service Detail Truck Cargo"}
+      />
       <p className="mb-4">
         Our transport arms, Transeast and Mainline Carriers, specialise in the transport of heavy and out-of-gauge cargo to remote locations across East and Central Africa.
       </p>
@@ -29,13 +40,7 @@ export default function UserAccountInfo() {
         With over 80 various types of material handling equipment vehicles and special trucks and trailers, our heavy lift division specialises in complex lifts for Oil & Gas equipment throughout the region. The jacking and skidding equipment enables remote site offloading and positioning.
       </p>
 
-      <div className="text-center mt-6">
-        <Link to="/services">
-          <Button variant="primary" className="hover:bg-blue-700 transition duration-300">
-            Learn More About Our Services
-          </Button>
-        </Link>
-      </div>
+      
     </div>
   );
 }
