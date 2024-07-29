@@ -7,6 +7,7 @@ import truck from "../assets/images/heey.jpg";
 import log from "../assets/images/log.jpg"
 import dollarIcon from "../assets/icons/money-icon.png";
 import trucks from "../assets/images/trucks.jpg";
+import border from "../assets/images/border.jpg"
 import { Link } from "react-router-dom";
 
 export default function Service() {
@@ -63,7 +64,7 @@ export default function Service() {
         <div className="max-w-xs rounded-lg shadow-lg bg-white hover:shadow-xl transition-shadow duration-300 p-6">
           <h4 className="service-plan-title text-xl font-bold">Contract Logistics</h4>
           <SimpleBanner
-        banner_img={trucks}
+        banner_img={border}
         banner_img_description={"Service Detail Truck Cargo"}
       />
           <p className="service-p">
